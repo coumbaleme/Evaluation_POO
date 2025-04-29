@@ -1,0 +1,39 @@
+
+1 Une classe en PHP permet de définir la structure et le comportement 
+  des objets que nous allons créer dans notre application.
+
+
+
+ 2  Un objet en PHP est une instance  d’une classe, avec ses propres valeurs 
+ pour les propriétés et la capacité d’appeler ses méthodes spécifiques.
+ex. 
+class Voiture {}$maVoiture = new Voiture(); //  nouvelle voiture (objet)
+
+
+3 Utilisez le mot-clé 'new' suivi du nom de la classe.
+Cela créera une instance de la classe qui pourra ensuite être utilisée 
+pour appeler des méthodes publiques ou accéder à des 
+propriétés publiques définies dans la classe. 
+Ceci est crucial en POO car cela permet la réutilisabilité et la modularité du code.
+
+
+4  les niveaux de visibilité des propriétés et des méthodes sont définis 
+ par trois mots-clés : public, private et protected.
+Public : Accessible partout.Private : Limité à l’intérieur de la classe.Protected : Accessible à la classe et à ses classes dérivées.
+
+
+5 L'héritage est un concept fondamental de la programmation orientée objet (POO) en PHP
+Il permet à une classe de réutiliser le code d’une autre classe sans le duplique.
+
+
+6 Une classe est une structure qui définit un objet, c'est le modèle à partir duquel des objets
+ (instances) sont créés.
+
+
+ 7public : accessible partout
+private : accessible uniquement dans la classe
+
+
+8 
+La méthode __construct() est une méthode magique qui est automatiquement appelée
+ lors de la création d'un objet. Elle permet d'initialiser les propriétés de l'objet.
