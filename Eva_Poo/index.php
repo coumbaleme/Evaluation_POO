@@ -116,3 +116,11 @@ echo "<br>";
 
 
 echo "<br>";
+
+
+
+// mettre en protected les propriétés du model car si tu veux dans tes class enfants faire :     public function direNom() {
+    //     echo $this->nom; // ❌ ERREUR : propriété privée
+    // }
+
+    // 16/20
